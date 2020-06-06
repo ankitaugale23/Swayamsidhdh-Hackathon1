@@ -1,0 +1,38 @@
+.row-content{
+    padding: 50px 0px 50px 0px;
+    min-height: 200px;
+    border-bottom: 2px ridge;
+    margin: auto;
+    
+ } 
+ 
+ 
+ .jumbotron{
+     background-color:#FFFFFF;
+     border-radius: 10px;
+     padding-top: 50px;
+     align-items: center;
+     color: white;
+ }
+
+
+ .footer{
+     margin-top: 10px;
+     margin: auto;
+     background-color: #5b4b87;
+     padding-left: 30dp;
+     
+ }
+ 
+ .row-header{
+ margin: auto;
+ padding: 20px 0px 20px 0px;
+ }
+
+ .gap{
+     margin: auto;
+     padding-left: 10px;
+     padding-top: 10px;
+ }
+
+ 
