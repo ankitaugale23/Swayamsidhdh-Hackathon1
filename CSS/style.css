@@ -35,4 +35,21 @@
      padding-top: 10px;
  }
 
+ .hackathon{
+     margin-top: 30px;
+     padding-left: 5px;
+     padding-right: 5px;
+ }
+
+ .imgoutline{
+     border-radius: 2px ridge;
+     background-color:#E8ECEC;
+     height: 300px;
+     width: 300px;  
+ }
+ 
+ #bodyback{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
+  }
+
  
