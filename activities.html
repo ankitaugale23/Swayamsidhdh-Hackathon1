@@ -13,10 +13,12 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="CSS/bg.css">
     
 </head>
 
-<body>
+<body style="background-image: url('img/bg 3.jpg');width: 100%;height:auto; display:block; background-position: center;
+background-size: cover;">
 
    
     <div>
@@ -31,7 +33,12 @@
                     <a class="navbar-brand text-white" href="index.html">स्वयमसिद्ध HACKATHON 20-20</a>
                   </div>
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link text-white" href="./index.html"><span class="fa fa-home"></span>Home</a></li>
+                  <li class="nav-item active">
+                    <a class="nav-link text-white" href="index.html"
+                      ><span class="fa fa-home"></span>Index</a
+                    >
+                  </li>
+                    <li class="nav-item active"><a class="nav-link text-white" href="./home.html"><span class="fa fa-home"></span>Home</a></li>
                     <li class="nav-item active"><a class="nav-link text-white" href="./rulebook.html"><span class="fa fa-book"></span>Rule Book</a></li>
                     <li class="nav-item active"><a class="nav-link text-white" href="activities.html"><span class="fa fa-institution"></span>Activities and Achievments</a></li>
                     <li class="nav-item active"><a class="nav-link text-white" href="./aboutus.html"><span class="fa fa-info"></span>AboutUS</a></li>
@@ -43,22 +50,25 @@
             
         </nav>
 
-        <header>
-            <div class = "container">
-                <div class = "row row-content">
-                    <div class="row">
-                      <img src="http://aissmscoe.com/wp-content/uploads/2019/06/AISSMS-500-x-200-for-website-COE.png" class="col-sm-4"  height="100" width="500"/>
+        <header class="headback">
+          <div class = "container">
+              <div class="row mt-2 justify-content-center">
+                  <div class="row row-content ">
                       <img class="image-fluid" src="img/satyamev jayate.png" height="100" width="100"/>
-                        <h4 class="text-dark hackathon"><strong>स्वयमसिद्ध HACKATHON 20-20</strong></h4>
-                        <img class="image-fluid" src="img/UbaLogoNew.png" height="100" width="100"/>      
-                     </div>
-                </div>
-            </div>
-        </header>
+                    <div class="col-sm">
+                      <img src="http://aissmscoe.com/wp-content/uploads/2019/06/AISSMS-500-x-200-for-website-COE.png" class="image-fluid bg-white" height="100" width="700"/>
+                      <h4 class="text-white hackathon d-flex p-2 justify-content-center"><strong>स्वयमसिद्ध HACKATHON 20-20</strong></h4>
+                    </div>  
+                      <img class="image-fluid " src="img/UbaLogoNew.png" height="100" width="100"/>      
+                   </div>
+              </div>
+          </div>
+      </header>
+
     </div>
 
     <div id="accordion">
-        <div class="card mt-5 col-sm-6 ml-1">
+        <div class="card mt-5 col-sm-6">
           <div class="card-header bg-primary" id="headingOne">
             <h3 class="mb-0">
               <button class="btn btn-link text-white" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -79,6 +89,7 @@
             </div>
           </div>
         </div> 
+
         <div class="card mt-5 col-sm-6 ml-1">
           <div class="card-header bg-primary" id="headingTwo">
             <h3 class="mb-0">
@@ -125,8 +136,8 @@
         </div>
       </div>
 
-      <div class="card mt-5 ml-1 mb-5">
-        <div class="card-header ml-3 bg-primary col-sm-6" id="headingThree">
+      <div class="card mt-5 ml-1 mb-5 col-sm-6">
+        <div class="card-header ml-3 bg-primary" id="headingThree">
           <h3 class="mb-0">
             <button class="btn btn-link collapsed text-white" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             <h3><strong>Gallery</strong></h3> 
@@ -171,7 +182,7 @@
           </div>
         </div>
       </div>
-    </div>
+    
    
 
     <footer class="footer">
@@ -209,7 +220,9 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-
+    <div id="stars" class="overflow"></div>
+    <div id="stars2" class="overflow"></div>
+    <div id="stars3" class="overflow"></div>
 
 </body>
 

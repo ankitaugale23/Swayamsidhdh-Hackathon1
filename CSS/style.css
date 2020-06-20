@@ -48,8 +48,25 @@
      width: 300px;  
  }
  
- #bodyback{
-    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
+ .background{
+     /* The image used */
+  background-image: url("https://images.pexels.com/photos/3575827/pexels-photo-3575827.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .media{
+    background-color: rgba(15, 15, 15, 0.7);
+  }
+
+  .headback{
+      align-content: center;
   }
 
  
