@@ -6,15 +6,6 @@
     
  } 
  
- 
- .jumbotron{
-     background-color:#FFFFFF;
-     border-radius: 10px;
-     padding-top: 50px;
-     align-items: center;
-     color: white;
- }
-
 
  .footer{
      margin-top: 10px;
@@ -24,10 +15,6 @@
      
  }
  
- .row-header{
- margin: auto;
- padding: 20px 0px 20px 0px;
- }
 
  .gap{
      margin: auto;
@@ -65,8 +52,8 @@
     background-color: rgba(15, 15, 15, 0.7);
   }
 
-  .headback{
-      align-content: center;
-  }
+  
+
+  
 
  
