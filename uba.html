@@ -203,91 +203,160 @@
               </div>
             </div>
 
-            <!--Adopted Villages-->
+            <!--Adopted Villages,Activities-->
             <div role="tabpanel" class="tab-pane fade" id="village">
               <div class="shadow-lg p-3 col-sm mb-5 bg-dark rounded">
-                <div class="row">
-                  <ul class="justify-self-center">
-                    <li class="text-white">
-                      <h3><strong>Malvandi (Dhore)</strong></h3>
-                    </li>
+                <div id="accordion">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button
+                          class="btn btn-link dropdown-toggle"
+                          data-toggle="collapse"
+                          data-target="#collapseOne"
+                          aria-expanded="true"
+                          aria-controls="collapseOne"
+                        >
+                          Adopted Villages
+                        </button>
+                      </h5>
+                    </div>
 
-                    <li class="text-white">
-                      <h3><strong>Tulapur</strong></h3>
-                    </li>
+                    <div
+                      id="collapseOne"
+                      class="collapse show"
+                      aria-labelledby="headingOne"
+                      data-parent="#accordion"
+                    >
+                      <div class="card-body">
+                        <ul>
+                          <li>Malvandi Dhore,Pune,Maharashtra</li>
+                          <li>Tulapur,Pune,Maharashtra</li>
+                          <li>Kondhanpur,Pune,Maharashtra</li>
+                          <li>Kalyan,Pune,Maharashtra</li>
+                          <li>Gogalwadi,Pune,Maharashtra</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button
+                          class="btn btn-link collapsed dropdown-toggle"
+                          data-toggle="collapse"
+                          data-target="#collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="collapseTwo"
+                        >
+                          Number of Activities done
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapseTwo"
+                      class="collapse"
+                      aria-labelledby="headingTwo"
+                      data-parent="#accordion"
+                    >
+                      <div class="card-body">
+                        <h3>Malvandi Dhore</h3>
+                        <ul>
+                          <li>Tree plantation</li>
+                          <li>Soak pit Construction</li>
+                          <li>Tobacco rally and pledge</li>
+                          <li>Water filteration plant</li>
+                          <li>Food kit distribution at malvandi</li>
+                          <li>
+                            Employability and entrepreneurship programme
+                            arranged at malvandi
+                          </li>
+                          <li>Health check-up camp</li>
+                          <li>Cleaning drive</li>
+                          <li>Computer literacy</li>
+                          <li>Library setup at malvandi</li>
+                        </ul>
+                        <br />
+                        <h3>Tulapur</h3>
+                        <ul>
+                          <li>Tree plantation</li>
+                          <li>Soak pit Construction</li>
+                          <li>Tobacco rally and pledge</li>
+                          <li>Health check-up camp</li>
+                          <li>Cleaning drive</li>
+                          <li>Computer literacy</li>
+                        </ul>
 
-                    <li class="text-white">
-                      <h3><strong>Kondhanpur</strong></h3>
-                    </li>
+                        <br />
+                        <h3>Kondhanpur</h3>
+                        <ul>
+                          <li>Tree plantation</li>
+                          <li>School Renovation</li>
+                          <li>Family Survey</li>
+                          <li>Oxygen Park</li>
+                          <li>Cleaning drive</li>
+                          <li>Tobacco rally and pledge</li>
+                          <li>Computer literacy</li>
+                          <li>Computer donation</li>
+                        </ul>
+                        <br />
 
-                    <li class="text-white">
-                      <h3><strong>Kalyan</strong></h3>
-                    </li>
+                        <h3>Kalyan</h3>
+                        <ul>
+                          <li>Tree plantation</li>
+                          <li>School Renovation</li>
+                          <li>Family Survey</li>
+                          <li>Tobacco rally and pledge</li>
+                          <li>Redesign percolation tank at kalyan</li>
+                          <li>Cleaning drive</li>
+                          <li>Computer literacy</li>
+                        </ul>
 
-                    <li class="text-white">
-                      <h3><strong>Gogalwadi</strong></h3>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+                        <br />
 
-            <!--List of activities done-->
-            <div role="tabpanel" class="tab-pane fade" id="activities">
-              <div class="shadow-lg p-3 col-sm mb-5 bg-dark rounded">
-                <div class="row col-sm-6">
-                  <h3 class="text-white">
-                    <strong>List Of activities Done</strong>
-                  </h3>
-                  <ul>
-                    <li class="text-white">
-                      <h5><strong>Tree Plantation</strong></h5>
-                    </li>
-
-                    <li class="text-white">
-                      <h5><strong>Digital literacy class</strong></h5>
-                    </li>
-                    <li class="text-white">
-                      <h5><strong>Energy audit program</strong></h5>
-                    </li>
-
-                    <li class="text-white">
-                      <h5><strong>Awareness program</strong></h5>
-                    </li>
-
-                    <li class="text-white">
-                      <h5><strong>Education to school children</strong></h5>
-                    </li>
-
-                    <li class="text-white">
-                      <h5><strong>Waste water Management</strong></h5>
-                    </li>
-                  </ul>
-                  <br />
-                  <!--Best Activities-->
-                  <div class="row col-sm-">
-                    <h3 class="text-white">
-                      <strong>Best Implemented Activities</strong>
-                    </h3>
-
-                    <ul class="row">
-                      <li class="text-white">
-                        <h5>
-                          <strong
-                            >Soak Pit Construction at Tulapur and Malvandi
-                          </strong>
-                        </h5>
-                      </li>
-
-                      <li class="text-white">
-                        <h5>
-                          <strong
-                            >RO plant Installation for Clean drinking water at
-                            Malvandi Dhore</strong
-                          >
-                        </h5>
-                      </li>
-                    </ul>
+                        <h3>Gogalwadi</h3>
+                        <ul>
+                          <li>Tree plantation</li>
+                          <li>School Renovation</li>
+                          <li>Family Survey</li>
+                          <li>Tobacco rally and pledge</li>
+                          <li>Redesign percolation tank at kalyan</li>
+                          <li>Cleaning drive</li>
+                          <li>Computer literacy</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0">
+                        <button
+                          class="btn btn-link collapsed dropdown-toggle"
+                          data-toggle="collapse"
+                          data-target="#collapseThree"
+                          aria-expanded="false"
+                          aria-controls="collapseThree"
+                        >
+                          Best Implemented Activities
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapseThree"
+                      class="collapse"
+                      aria-labelledby="headingThree"
+                      data-parent="#accordion"
+                    >
+                      <div class="card-body">
+                        <ul>
+                          <li>
+                            Soak pit Construction at Malvandi and Tulapur
+                            village
+                          </li>
+                          <li>RO plant installation at Malvandi dhore</li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
