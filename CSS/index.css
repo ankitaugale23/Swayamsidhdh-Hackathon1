@@ -10,7 +10,7 @@ body {
 
 @font-face {
   font-family: ams;
-  src: url("../fonts/AMS Chhatrapati 1.ttf");
+  src: url("../fonts/Amita-Regular.ttf");
 }
 
 .samarn {
@@ -722,6 +722,12 @@ ul {
     width: 210px;
     top: 72%;
     left: 0px;
+  }
+  .main-title {
+    position: relative;
+    top: 33%;
+    font-size: 50px;
+    font-weight: 600;
   }
 }
 
