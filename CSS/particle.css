@@ -1,0 +1,18 @@
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -1;
+}
