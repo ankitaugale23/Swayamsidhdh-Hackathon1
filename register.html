@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+		/>
+		<title>Registration</title>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./css/login.css" />
+
+		<link
+			href="node_modules\@fortawesome\fontawesome-free\css\fontawesome.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="node_modules\@fortawesome\fontawesome-free\css\brands.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="node_modules\@fortawesome\fontawesome-free\css\solid.css"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<img
+			id="loader"
+			hidden
+			src="./images/loader.svg"
+			style="width: 150px;"
+			alt=""
+		/>
+		<div class="login">
+			<form id="register-form" action="#">
+				<p id="error" hidden>Please fill out all fields.</p>
+				<h2 class="sr-only">Registration Form</h2>
+				<div class="icon">
+					<i class="fas fa-user"></i>
+				</div>
+				<div class="form-group">
+					<input
+						class="form-control"
+						type="text"
+						name="team-name"
+						placeholder="Team Name"
+						required
+					/>
+				</div>
+				<div class="form-group">
+					<div class="row">
+						<div class="col">
+							<input
+								class="form-control"
+								type="text"
+								name="team-leader-name"
+								placeholder="Team Leader Name"
+								required
+							/>
+						</div>
+						<div class="col">
+							<input
+								class="form-control"
+								type="text"
+								name="mobile-no"
+								placeholder="Mobile No"
+								required
+							/>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<input
+						class="form-control"
+						type="text"
+						name="project-theme"
+						placeholder="Project Theme"
+						required
+					/>
+				</div>
+				<div class="form-group">
+					<input
+						class="form-control"
+						type="email"
+						name="email"
+						placeholder="Email(Team Leader)"
+					/>
+				</div>
+				<div class="form-group">
+					<input
+						class="form-control"
+						type="password"
+						name="password"
+						placeholder="Password"
+						required
+					/>
+				</div>
+				<div class="form-group">
+					<button class="btn btn-primary btn-block" type="submit">
+						Register
+					</button>
+				</div>
+				<a class="newuser" href="login.pug">Already have a account</a>
+			</form>
+			<div id="thanks" hidden class="alert alert-success" role="alert">
+				Your data has been received. Thanks!
+			</div>
+			<div hidden class="alert alert-danger" id="error-msg" role="alert"></div>
+		</div>
+		<script src="js/register.js"></script>
+	</body>
+</html>
