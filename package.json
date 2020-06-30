@@ -1,30 +1,43 @@
 {
-  "name": "website",
-  "version": "1.0.0",
-  "main": "index.html",
-  "scripts": {
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server",
-    "scss": "node-sass -o css/ css/"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^4.5.0",
-    "bootstrap-social": "^5.1.1",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.5.1",
-    "lite-server": "^2.5.4",
-    "node-sass": "^4.14.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/omkar-22/collge-website.git"
-  },
-  "bugs": {
-    "url": "https://github.com/omkar-22/collge-website/issues"
-  },
-  "homepage": "https://github.com/omkar-22/collge-website#readme",
-  "description": ""
+	"name": "website",
+	"version": "1.0.0",
+	"main": "index.html",
+	"scripts": {
+		"dev": "parcel index.html home.html",
+		"build": "parcel build index.html",
+		"scss": "node-sass -o css/ css/"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^5.13.1",
+		"bootstrap-social": "^5.1.1",
+		"firebase": "^7.15.5",
+		"jquery": "^3.5.1",
+		"lite-server": "^2.5.4",
+		"node-sass": "^4.14.1",
+		"pug": "^3.0.0"
+	},
+	"browserslist": [
+		"last 3 and_chr versions",
+		"last 3 chrome versions",
+		"last 3 opera versions",
+		"last 3 ios_saf versions",
+		"last 3 safari versions"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/omkar-22/collge-website.git"
+	},
+	"bugs": {
+		"url": "https://github.com/omkar-22/collge-website/issues"
+	},
+	"homepage": "https://github.com/omkar-22/collge-website#readme",
+	"description": "",
+	"devDependencies": {
+		"@babel/core": "^7.10.3",
+		"@babel/preset-env": "^7.10.3",
+		"parcel-bundler": "^1.12.4",
+		"prettier": "^2.0.5"
+	}
 }
