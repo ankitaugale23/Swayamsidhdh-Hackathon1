@@ -1,0 +1,67 @@
+html
+	head
+		meta(charset="utf-8")
+		meta(
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+		)
+		title Login
+		link(
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+			crossorigin="anonymous"
+		)
+		link(
+			rel="stylesheet" 
+			href="./css/login.css"
+		)
+		link(
+			href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"
+			rel="stylesheet"
+		)
+		link(
+			href="node_modules/@fortawesome/fontawesome-free/css/brands.css"
+			rel="stylesheet"
+		)
+		link(
+			href="node_modules/@fortawesome/fontawesome-free/css/solid.css"
+			rel="stylesheet"
+		)
+	body
+		img(
+			id="loader"
+			hidden
+			src="./images/loader.svg"
+			style="width:150px;"
+			alt="")
+		div(class="login")
+			form(
+				method="post"
+				id="login-form"
+			)
+				h2(class="sr-only") Login Form
+				div(class="icon")
+					i(class="fas fa-lock")
+				div(class="form-group")
+					input(
+						class="form-control"
+						type="email"
+						name="email"
+						placeholder="Email(Team Leader)"
+						required
+					)
+				div(class="form-group")
+					input(
+						class="form-control"
+						type="password"
+						name="password"
+						placeholder="Password"
+						required
+					)
+				div(class="form-group")
+					button(class="btn btn-primary btn-block" type="submit") Log In
+				a(class="forgot" href="#") Forgot your email or password?
+				a(class="newuser" href="register.html") New User
+			<div hidden class="alert alert-danger" id="error-msg" role="alert"></div>
+		script(src="./js/login.js")
